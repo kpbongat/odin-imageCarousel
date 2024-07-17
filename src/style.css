@@ -1,0 +1,31 @@
+.image-carousel {
+  justify-content: center;
+}
+
+.frame {
+  width: 250px;
+  overflow: hidden;
+}
+.slide {
+  width: 750px;
+}
+
+.nav-dots {
+  justify-content: center;
+  margin-top: 4px;
+  gap: 4px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: lightgray;
+  border-radius: 50%;
+}
+.dot.active {
+  background-color: darkgray;
+}
+
+.flex {
+  display: flex;
+}
